@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Mitra - Smart Agriculture Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2><b>SMART KRISHI</b></h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#soil-health" class="nav-link">Soil Health</a></li>
+                    <li><a href="#blogs" class="nav-link">Blogs</a></li>
+                    <li><a href="#login" class="nav-link">Login</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Homepage Section -->
+        <section id="home" class="page active">
+            <!-- Hero Carousel -->
+            <div class="hero-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slides" id="carousel-slides">
+                        <div class="slide active">
+                            <div class="slide-content">
+                                <h1>AI-Driven Forecasting</h1>
+                                <p>Utilize advanced AI to predict market needs and weather patterns, helping you make informed decisions and maximize your yield.</p>
+                                <button class="btn btn--primary btn--lg">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <h1>Real-Time Monitoring</h1>
+                                <p>Keep track of your farm's conditions with real-time data and remote system control, ensuring optimal growth and productivity.</p>
+                                <button class="btn btn--primary btn--lg">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <h1>Community Marketplace</h1>
+                                <p>Connect directly with consumers and other farmers through our marketplace, promoting sustainable practices and profitable exchanges.</p>
+                                <button class="btn btn--primary btn--lg">Join Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn prev" id="prev-btn">❮</button>
+                    <button class="carousel-btn next" id="next-btn">❯</button>
+                    <div class="carousel-indicators">
+                        <span class="indicator active" data-slide="0"></span>
+                        <span class="indicator" data-slide="1"></span>
+                        <span class="indicator" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <section class="features-section">
+                <div class="container">
+                    <h2 class="section-title">WHAT WE ARE DOING</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🌱</div>
+                            <h3>Soil Health Report</h3>
+                            <p>Use our AI-powered soil health report to help farmers make informed decisions about their soil health.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🏪</div>
+                            <h3>Farmer's Marketplace</h3>
+                            <p>A marketplace for farmers to sell their products and services without the need of intermediaries.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🌤️</div>
+                            <h3>Local Weather Forecast</h3>
+                            <p>Get local weather forecasts to help farmers make informed decisions about their farming practices.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🚜</div>
+                            <h3>Rent Farm Tools</h3>
+                            <p>Rent farm tools or get other farmer's tools on rent so they don't have to buy each and every equipment.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">📚</div>
+                            <h3>Agriculture Info</h3>
+                            <p>Get information on the latest agricultural trends and strategies to help farmers make informed decisions about their farming.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">👥</div>
+                            <h3>Community</h3>
+                            <p>Join our community of farmers who help each other make informed decisions about their farming practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Impact Statistics -->
+            <section class="stats-section">
+                <div class="container">
+                    <h2 class="section-title">Our Impact</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="5000">0</div>
+                            <div class="stat-label">Farmers Connected</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="12000">0</div>
+                            <div class="stat-label">Soil Health Reports Generated</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="150">0</div>
+                            <div class="stat-label">Cities Served</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="10000">0</div>
+                            <div class="stat-label">Acres of Land Improved</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials-section">
+                <div class="container">
+                    <h2 class="section-title">What Our Farmers Say</h2>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Using Smart Krishi's advanced tools and resources, I've seen a significant improvement in my farm's productivity. The real-time monitoring feature helps me stay on top of my crops' health, and the AI-driven forecasting ensures I make informed decisions."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>KAMAL NAYAN UPADHYAY</h4>
+                                <span>Farmer, Maharashtra</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Smart Krishi's community marketplace has opened up new avenues for me to sell my produce directly to consumers. The platform is user-friendly, and the support team is always there to help. This initiative is truly empowering farmers."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>S MISHRA</h4>
+                                <span>Farmer, Uttar Pradesh</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"The sustainable farming techniques I've learned through Smart Krishi have not only boosted my yield but also helped me protect the environment. It's a win-win for my farm and the planet. Farmers like me are being really empowered by this effort."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <h4>DILJEET</h4>
+                                <span>Farmer, Punjab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="page">
+            <div class="container">
+                <div class="products-header">
+                    <h1>Shop or Rent Products</h1>
+                    <button class="btn btn--primary">List Your Equipment for Rent</button>
+                </div>
+                
+                <div class="product-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="vehicles">Vehicles</button>
+                    <button class="filter-btn" data-filter="tools">Tools</button>
+                    <button class="filter-btn" data-filter="electronics">Electronics</button>
+                </div>
+
+                <div class="products-grid" id="products-grid">
+                    <!-- Products will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Soil Health Section -->
+        <section id="soil-health" class="page">
+            <div class="container">
+                <h1>Book a Soil Health Test</h1>
+                
+                <form class="soil-health-form" id="soil-health-form">
+                    <div class="form-section">
+                        <h3>Select Soil Tests</h3>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="soil-tests" value="pH">
+                                <span class="checkmark"></span>
+                                pH
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="soil-tests" value="Nitrogen">
+                                <span class="checkmark"></span>
+                                Nitrogen
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="soil-tests" value="Phosphorus">
+                                <span class="checkmark"></span>
+                                Phosphorus
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="soil-tests" value="Potassium">
+                                <span class="checkmark"></span>
+                                Potassium
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Upload Soil Photos</h3>
+                        <div class="file-upload-area" id="file-upload">
+                            <div class="upload-content">
+                                <p>Click to upload or drag and drop</p>
+                                <small>PNG, JPG or GIF (MAX. 800x400px)</small>
+                            </div>
+                            <input type="file" id="soil-photos" name="soil-photos" multiple accept="image/*">
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Soil Information</h3>
+                        <div class="form-group">
+                            <label class="form-label" for="soil-type">Select soil type</label>
+                            <select class="form-control" id="soil-type" name="soil-type">
+                                <option value="">Select soil type</option>
+                                <option value="Sandy">Sandy</option>
+                                <option value="Clay">Clay</option>
+                                <option value="Loam">Loam</option>
+                                <option value="Silt">Silt</option>
+                                <option value="Peat">Peat</option>
+                                <option value="Chalk">Chalk</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Crop Information</h3>
+                        <div class="form-group">
+                            <label class="form-label" for="crop-info">Describe the crops you are growing</label>
+                            <textarea class="form-control" id="crop-info" name="crop-info" rows="4" placeholder="Describe your crops..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Select Nearest Soil Testing Center</h3>
+                        <div class="form-group">
+                            <select class="form-control" id="test-center" name="test-center">
+                                <option value="">Select testing center</option>
+                                <option value="Center 1">Center 1</option>
+                                <option value="Center 2">Center 2</option>
+                                <option value="Center 3">Center 3</option>
+                                <option value="Center 4">Center 4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Location & Contact</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="location">Location</label>
+                                <input type="text" class="form-control" id="location" name="location" placeholder="Enter your location">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="contact">Contact Number</label>
+                                <input type="tel" class="form-control" id="contact" name="contact" placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--full-width btn--lg">Book Test</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Blogs Section -->
+        <section id="blogs" class="page">
+            <div class="container">
+                <div class="blogs-header">
+                    <h1>Farm Blogs</h1>
+                    <p>Listen to the tricks and tips of our users.</p>
+                </div>
+                
+                <div class="blogs-grid" id="blogs-grid">
+                    <!-- Blogs will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Login Section -->
+        <section id="login" class="page">
+            <div class="container">
+                <div class="auth-container">
+                    <div class="auth-form" id="login-form-container">
+                        <h2>Login</h2>
+                        <form id="login-form">
+                            <div class="form-group">
+                                <label class="form-label" for="login-email">Email/Username</label>
+                                <input type="text" class="form-control" id="login-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="login-password">Password</label>
+                                <input type="password" class="form-control" id="login-password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                        </form>
+                        <p class="auth-switch">Don't have an account? <a href="#" id="show-signup">Signup</a></p>
+                    </div>
+
+                    <div class="auth-form hidden" id="signup-form-container">
+                        <h2>Sign Up - Join our community of farmers!</h2>
+                        <form id="signup-form">
+                            <div class="form-group">
+                                <label class="form-label" for="signup-name">Full Name</label>
+                                <input type="text" class="form-control" id="signup-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="signup-email">Email Address</label>
+                                <input type="email" class="form-control" id="signup-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="signup-password">Password</label>
+                                <input type="password" class="form-control" id="signup-password" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="signup-location">Location</label>
+                                <input type="text" class="form-control" id="signup-location" name="location" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="signup-aadhaar">Aadhaar Number</label>
+                                <input type="text" class="form-control" id="signup-aadhaar" name="aadhaar" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="profile-picture">Profile Picture</label>
+                                <input type="file" class="form-control" id="profile-picture" name="profile-picture" accept="image/*">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="govt-id">Government ID Image</label>
+                                <input type="file" class="form-control" id="govt-id" name="govt-id" accept="image/*">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Register As:</label>
+                                <div class="radio-group">
+                                    <label class="radio-label">
+                                        <input type="radio" name="user-type" value="consumer" required>
+                                        <span class="radio-mark"></span>
+                                        Consumer
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="user-type" value="farmer" required>
+                                        <span class="radio-mark"></span>
+                                        Farmer
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Sign Up</button>
+                        </form>
+                        <p class="auth-switch">Already have an account? <a href="#" id="show-login">Login here</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <h3>SMART KRISHI</h3>
+                        <p>Empowering farmers with smart agriculture solutions through AI-driven technology and community support.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products & Rentals</a></li>
+                        <li><a href="#soil-health">Soil Health Testing</a></li>
+                        <li><a href="#blogs">Farm Blogs</a></li>
+                        <li><a href="#login">Login / Signup</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">AI-Driven Forecasting</a></li>
+                        <li><a href="#">Real-Time Monitoring</a></li>
+                        <li><a href="#">Weather Forecasting</a></li>
+                        <li><a href="#">Equipment Rental</a></li>
+                        <li><a href="#">Farming Consultancy</a></li>
+                        <li><a href="#">Community Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Report Issue</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span>Sector 44, Gurugram, Haryana 122003</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <span>support@smartkrishi.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                            </svg>
+                            <span>Mon-Sat: 9AM-7PM IST</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Smart Krishi. All rights reserved. | Empowering Farmers, Growing Together</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="#">Terms of Service</a>
+                        <span>|</span>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
