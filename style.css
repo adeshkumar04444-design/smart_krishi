@@ -836,23 +836,23 @@ body {
 
 /* Background image new */
 
-/*.carousel-slides .slide {
+.carousel-slides .slide {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}*/
+}
 
-/*.carousel-slides .slide:nth-child(1) {
-  background-image: url('farm1.jpg'); /* पहली slide की image path 
-}*/
+.carousel-slides .slide:nth-child(1) {
+  background-image: url('farm1.jpg'); /* पहली slide की image path */
+}
 
-/*.carousel-slides .slide:nth-child(2) {
-  background-image: url('farm2.jpg'); /* दूसरी slide की image path 
-}*/
+.carousel-slides .slide:nth-child(2) {
+  background-image: url('farm2.jpg'); /* दूसरी slide की image path */
+}
 
-/*.carousel-slides .slide:nth-child(3) {
-  background-image: url('farm3.jpg'); /* तीसरी slide की image path 
-}*/
+.carousel-slides .slide:nth-child(3) {
+  background-image: url('farm3.jpg'); /* तीसरी slide की image path */
+}
 
 
 /* Hero Carousel */
